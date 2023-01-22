@@ -42,7 +42,9 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("./img/background.jpg") center top no-repeat;
+    background: 
+    url("./img/elephant.jpg") center top no-repeat, 
+    url("./img/men.jpg") center bottom no-repeat;
 }
 
 /* стилизация интро */
