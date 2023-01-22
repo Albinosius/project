@@ -1,14 +1,13 @@
 /* Шрифты */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-head,
-body,
-footer {
+body {
     background: #001821;
     font: 400 14px/1.42 'Open Sans', Helvetica, sans-serif;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
 a {
@@ -47,35 +46,35 @@ p {
 }
 
 /* стилизация интро */
-.conteiner {
+.container {
     margin: 0 auto;
     width: 1141px;
-    margin-bottom: 249px;
+    position: relative;
 }
 
 .header {
     height: 120px;
     position: relative;
-    margin-bottom: 65px;
+    margin-bottom: 76px;
 }
 
 .logo {
     display: inline-block;
     position: absolute;
     vertical-align: middle;
-    top: 19px;
+    top: 29px;
     left: 0;
 }
 
 .menu {
     position: absolute;
-    top: 30px;
-    left: 166px;
+    top: 40px;
+    left: 163px;
 }
 
 .contacts {
     position: absolute;
-    top: 19px;
+    top: 31px;
     right: 0;
     font-style: normal;
     text-align: right;
@@ -103,12 +102,14 @@ p {
 .contacts__inf {
     font-size: 11px;
     color: #9A9A9A;
+    margin-bottom: 6px;
 }
 
 .contacts__phone {
     text-decoration: none;
-    font-size: 24px;
-    margin-bottom: 4px;
+    font-size: 26px;
+    display: block;
+    line-height: 1;
 }
 
 .contacts__workhours {
@@ -122,6 +123,9 @@ p {
 }
 
 .intro {
+    margin-bottom: 246px;
+}
+.intro__wrap {
     width: 515px;
 }
 
@@ -156,7 +160,7 @@ p {
 
 .page-content {
     margin: 0 auto;
-    width: 1141px;
+    margin-bottom: 55px;
 }
 
 .tours {
@@ -193,19 +197,21 @@ p {
     margin-right: 0;
 }
 
-.burning-tour__cover {
-    width: 362px;
-    border-radius: 5px 5px 0px 0px;
-}
-
 .burning-tour__cover-wrap {
-    min-height: 144px;
+    height: 144px;
+    width: 100%;
     margin-bottom: 0;
 }
 
+.burning-tour__cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
 .burning-tour__information {
-    padding: 28px 22px;
+    padding: 32px 22px 28px ;
 }
 
 .burning-tour__name {
@@ -217,7 +223,8 @@ p {
 .burning-tour__featuers {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 18px
+    margin-bottom: 18px;
+    padding-left: 4px;
 }
 
 .burning-tour__featuers:last-child {
@@ -228,7 +235,7 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 135px;
-    margin-right: 21px;
+    margin-right: 16px;
 }
 
 .burning-tour__featuer:last-child {
@@ -316,10 +323,11 @@ p {
     right: 0;
     bottom: 0;
     padding: 26px 31px;
-    min-height: 140px;
+    min-height: 170px;
 }
 
 .news__date {
+    display: block;
     margin-bottom: 18px;
 }
 
@@ -332,7 +340,7 @@ p {
 .news__add {
     font-size: 16px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 /* для пагинации */
@@ -355,6 +363,7 @@ p {
 .pagination__item {
     display: inline-block;
     vertical-align: middle;
+    margin-right: -2px;
 }
 
 .pagination__item--active .pagination__link {
@@ -381,9 +390,6 @@ p {
 }
 
 /* стилизация раздела "о нас" */
-.about {
-    margin-bottom: 55px;
-}
 
 .about::before,
 .about__desc {
@@ -391,8 +397,9 @@ p {
     vertical-align: top;
 }
 
-.about::before {
+.about__container::before {
     content: "";
+    display: block;
     width: 490px;
     height: 505px;
     border-radius: 5px;
@@ -429,26 +436,30 @@ p {
 
 /* стилизуем футер */
 
-.footer-conteiner__content {
-    padding-top: 28px;
+.footer-container__content {
+    padding-top: 18px;
     border-top: 1px solid #f2f2f2;
 }
 
 .footer {
-    height: 146px;
+    height: 128px;
     position: relative;
+}
+
+.footer__contacts{
+    top: 26px;
 }
 
 .socials {
     position: absolute;
-    top: 22px;
-    right: 253px;
+    top: 31px;
+    right: 268px;
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .socials__item:last-child {
