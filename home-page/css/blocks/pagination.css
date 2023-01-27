@@ -17,6 +17,12 @@
     align-items: center;
 }
 
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -2px;
+}
+
 .pagination__item--active .pagination__link {
     background: #fff;
     color: #F5170E;
