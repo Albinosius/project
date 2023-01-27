@@ -1,0 +1,24 @@
+
+.breadcrumb {
+    display: inline-flex;
+    color: #9a9a9a;
+}
+
+.breadcrumb__active {
+    font-weight: bold;
+}
+
+.breadcrumb__slash {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.breadcrumb li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.breadcrumb li a:hover {
+    color: #fff
+}
+

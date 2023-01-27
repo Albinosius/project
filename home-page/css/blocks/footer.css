@@ -1,0 +1,29 @@
+.footer {
+    height: 128px;
+    min-width: 950px;
+}
+
+.footer-container {
+    padding-top: 43px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align--right {
+    display: flex;
+    justify-content: flex-end
+}
+
+.footer__contacts{
+    top: 26px;
+}

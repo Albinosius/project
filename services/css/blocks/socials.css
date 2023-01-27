@@ -1,0 +1,53 @@
+.socials {
+    margin-right: 76px;
+}
+
+.socials__item {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--item-tg .socials__link {
+    background-image: url(../../img/icon/tg.png);
+}
+
+.socials__item--item-tg .socials__link:hover {
+    background-image: url(../../img/icon/tg-hover.png);
+}
+
+.socials__item--item-vk .socials__link {
+    background-image: url(../../img/icon/vk.png);
+}
+
+.socials__item--item-vk .socials__link:hover {
+    background-image: url(../../img/icon/vk-hover.png);
+}
+
+.socials__item--item-fb .socials__link {
+    background-image: url(../../img/icon/f.png);
+}
+
+.socials__item--item-fb .socials__link:hover {
+    background-image: url(../../img/icon/f-hover.png);
+}
+
+.socials__item--item-inst .socials__link {
+    background-image: url(../../img/icon/in.png);
+}
+
+.socials__item--item-inst .socials__link:hover {
+    background-image: url(../../img/icon/in-hover.png);
+}

@@ -1,0 +1,29 @@
+.footer-container {
+    background: #001821;
+    height: 128px;
+    min-width: 950px;
+}
+.footer-container__content {
+    padding-top: 48px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align--right {
+    display: flex;
+    justify-content: flex-end
+}
+
+.footer__contacts{
+    top: 30px;
+}

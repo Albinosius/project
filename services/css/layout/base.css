@@ -1,0 +1,70 @@
+html, body {
+    background: #fff;
+    font: 400 14px/1.42 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.wrapper {
+    background:url("../../img/background/headline.png") center top no-repeat;
+    overflow: hidden;
+    min-width: 1141px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1141px;
+    width: 100%;
+}
+
+.main-content {
+    margin: 0 auto;
+    margin-bottom: 99px;
+}
+
+.btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 16px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,14 @@
+.intro {
+    margin-bottom: 119px;
+}
+.intro__wrap {
+    width: 45%;
+}
+
+.intro__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 103px;
+    line-height: 1.38;
+}
