@@ -18,9 +18,11 @@
 }
 
 .pagination__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: -2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* vertical-align: middle;
+    margin-right: -2px; */
 }
 
 .pagination__item--active .pagination__link {
@@ -34,7 +36,6 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    position: relative;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
