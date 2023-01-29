@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background: #001821;
+}
+
+.footer-container {
+    padding-top: 43px;
+    padding-bottom: 43px;
+    background: #001821;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align--right {
+    display: flex;
+    justify-content: flex-end
+}
+
+.footer__contacts{
+    top: 26px;
+}

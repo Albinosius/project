@@ -1,0 +1,27 @@
+.partners {
+    background: #f4f5f5;
+    padding: 88px 0 107px;
+}
+
+.partners__title {
+    color: #1A1B1E;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 83px;
+    line-height: 1.38;  
+}
+
+.partners__list {
+    display: inline-flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 67px;
+}
+
+.partners__item {
+    flex-basis: 260px;
+}
+
+.partners__item:nth-child(4n+4) {
+    text-align: right;
+}
