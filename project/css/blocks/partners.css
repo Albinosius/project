@@ -1,6 +1,6 @@
 .partners {
     background: #f4f5f5;
-    padding: 88px 0 107px;
+    padding: 88px 0 117px;
 }
 
 .partners__title {
@@ -20,8 +20,16 @@
 
 .partners__item {
     flex-basis: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__item:nth-child(4n+1) {
+    justify-content: flex-start;
 }
 
 .partners__item:nth-child(4n+4) {
-    text-align: right;
+   justify-content: flex-end;
+   margin-left: auto;
 }
