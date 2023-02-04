@@ -66,5 +66,9 @@ p {
     text-decoration: none;
     display: inline-block;
     color: #fff;
+    border: none;
 }
 
+.btn--theme--black {
+    background: #2B2B2B;
+}

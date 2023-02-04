@@ -30,6 +30,12 @@
     opacity: .7;
 }
 
+.pagination__services--active .pagination__link {
+    background: #F5170E;
+    color: #fff;
+    opacity: .7;
+}
+
 .pagination__link {
     display: block;
     width: 32px;
@@ -44,4 +50,9 @@
 .pagination__link:hover {
     background: #fff;
     color: #F5170E;
+}
+
+.pagination__link--services:hover {
+    background: #F5170E;
+    color: #fff;
 }
