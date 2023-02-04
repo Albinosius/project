@@ -1,0 +1,23 @@
+.intro {
+    margin-bottom: 248px;
+}
+
+.intro__wrap {
+    width: 45%;
+}
+
+.intro__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 24px;
+    line-height: 1.38;
+}
+
+.intro__text {
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.intro__link.hover {
+    background: #DA0100;
+}

@@ -1,0 +1,31 @@
+.control {
+display: flex;
+flex-wrap: wrap;
+gap: 9px;
+}
+
+.control__elem {
+  cursor: pointer;
+}
+
+.control__tag {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 10px 15px;
+  background-color: #e7e7e7;
+  color: #303030;
+  border-radius: 35px;
+
+}
+
+.control__radio:checked + .control__tag{
+  background-color: #b9eae4;
+  margin: 0 10px ;
+}
+
+.control__radio {
+  appearance: none;
+  position: absolute;
+  left: -9999px;
+}

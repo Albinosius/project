@@ -1,0 +1,33 @@
+@import url(./css/layout/normlize.css);
+@import url(./css/layout/fonts.css);
+@import url(./css/layout/base.css);
+
+@import url(./css/blocks/header.css);
+@import url(./css/blocks/logo.css);
+@import url(./css/blocks/menu.css);
+@import url(./css/blocks/contacts.css);
+
+@import url(./css/blocks/intro.css);
+@import url(./css/blocks/burning-tour.css);
+@import url(./css/blocks/tours.css);
+
+@import url(./css/blocks/about.css);
+@import url(./css/blocks/news.css);
+@import url(./css/blocks/pagination.css);
+
+
+
+@import url(./css/blocks/footer.css);
+@import url(./css/blocks/socials.css);
+
+@import url(./css/blocks/top-line.css);
+@import url(./css/blocks/breadcrumb.css);
+@import url(./css/blocks/service.css);
+@import url(./css/blocks/partners.css);
+
+@import url(./css/blocks/welcome.css);
+@import url(./css/blocks/reviews.css);
+@import url(./css/blocks/separator.css);
+@import url(./css/blocks/form.css);
+@import url(./css/blocks/controls.css);
+@import url(./css/blocks/inner.css);
