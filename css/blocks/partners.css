@@ -10,6 +10,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+
+.partners__item:hover { 
+    filter: grayscale(0);
 }
 
 .partners__item:nth-child(4n+1) {

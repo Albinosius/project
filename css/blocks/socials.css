@@ -21,7 +21,8 @@
     background: center center no-repeat;
 }
 
-.socials__item--item-tg .socials__link::after {
+.socials__link::after,
+.socials__link::before {
     content: '';
     display: block;
     position: absolute;
@@ -30,57 +31,54 @@
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url(../../img/icon/socials-sprit.png) -66px -10px;
+    transition: opacity .3s;
+    background-image: url(../../img/icon/socials-sprit.png);
 }
 
-.socials__item--item-tg .socials__link:hover:after {
+.socials__link::after {
+    opacity: 1;
+}
+
+.socials__link::before {
+    opacity: 0;
+}
+
+.socials__link:hover::after {
+    opacity: 0;
+}
+
+.socials__link:hover::before {
+    opacity: 1;
+}
+
+.socials__item--item-tg .socials__link::after {
+    background-position: -66px -10px;
+}
+
+.socials__item--item-tg .socials__link::before {
     background-position: -122px -66px;
 }
 
 .socials__item--item-vk .socials__link::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 36px;
-    height: 36px;
-    background: url(../../img/icon/socials-sprit.png) -10px -10px;
+    background-position: -10px -10px;
 }
 
-.socials__item--item-vk .socials__link:hover:after {
+.socials__item--item-vk .socials__link::before {
     background-position: -122px -10px;
 }
 
 .socials__item--item-fb .socials__link::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 36px;
-    height: 36px;
-    background: url(../../img/icon/socials-sprit.png) -66px -66px;
+    background-position: -66px -66px;
 }
 
-.socials__item--item-fb .socials__link:hover:after {
+.socials__item--item-fb .socials__link::before {
     background-position: -66px -122px;
 }
 
 .socials__item--item-inst .socials__link::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 36px;
-    height: 36px;
-    background: url(../../img/icon/socials-sprit.png) -10px -66px;
+    background-position: -10px -66px;
 }
 
-.socials__item--item-inst .socials__link:hover:after {
+.socials__item--item-inst .socials__link::before {
     background-position: -10px -122px;
 }

@@ -13,8 +13,9 @@
 .menu__title {
     font-size: 14px;
     text-decoration: none;
+    transition: color .3s;
 }
 
-.menu__title:hover {
+.menu__title:hover, .menu__title--active{
     color: #DA0100;
 }
