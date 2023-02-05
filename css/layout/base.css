@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background: #001821;
     font: 400 14px/1.42 'Open Sans', Helvetica, sans-serif;
     color: #fff;
@@ -20,7 +21,12 @@ ul li {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     font-weight: normal;
 }
@@ -34,9 +40,9 @@ p {
 }
 
 .wrapper-main {
-    background: 
-    url("../../img/background/elephant.jpg") center top no-repeat, 
-    url("../../img/background/men.jpg") center bottom no-repeat;
+    background:
+        url("../../img/background/elephant.jpg") center top no-repeat,
+        url("../../img/background/men.jpg") center bottom no-repeat;
     overflow: hidden;
     width: 100%;
 }
@@ -55,20 +61,4 @@ p {
 .page-content {
     margin: 0 auto;
     margin-bottom: 55px;
-}
-
-.btn {
-    background: #F5170E;
-    border-radius: 35px;
-    padding: 16px 41px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    border: none;
-}
-
-.btn--theme--black {
-    background: #2B2B2B;
 }
